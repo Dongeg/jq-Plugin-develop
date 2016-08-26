@@ -45,15 +45,15 @@ each：循环实现每个元素的访问
 例如 $("div").next().addClass().....
 
 <h3>单例模式创建实例</h3>
-$.fn.myPlugin=function(){
-    var me=$(this),
-    instance=me.data("myPlugin");
-    if(!instence){
-        me.data("myPlugin",(instance= new myPlugin()));
-    }
-};
-//如果实例存在则不再创建实例
-//利用data()来存放插件对象实例
+        $.fn.myPlugin=function(){
+            var me=$(this),
+            instance=me.data("myPlugin");
+            if(!instence){
+                me.data("myPlugin",(instance= new myPlugin()));
+            }
+        };
+        //如果实例存在则不再创建实例
+        //利用data()来存放插件对象实例
 
 
 
