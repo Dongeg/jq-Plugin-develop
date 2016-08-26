@@ -85,3 +85,5 @@ value	必需。规定要设置的数据的值。
        $(selector).data(object)
 
 object	必需。规定包含名称/值对的对象。
+
+<a href="jq插件开发方式.md">下一节</a>
